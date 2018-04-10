@@ -24,8 +24,14 @@
     
     <mvc:default-servlet-handler />
 	<!-- 开启注解 -->
+	<mvc:resources mapping="/bootstrap-3.3.7/js/**" location="/WEB-INF/bootstrap-3.3.7/js/"/>
+	<mvc:resources mapping="/bootstrap-3.3.7/css/**" location="/WEB-INF/bootstrap-3.3.7/css/"/>
+	<mvc:resources mapping="/bootstrap-3.3.7/fonts/**" location="/WEB-INF/bootstrap-3.3.7/fonts/"/>
 	<mvc:resources mapping="/js/**" location="/WEB-INF/js/"/>
-
+	<mvc:resources mapping="/css/**" location="/WEB-INF/css/"/>	
+	<mvc:resources mapping="/html/**" location="/WEB-INF/html/"/>
+	<mvc:resources mapping="/img/**" location="/WEB-INF/img/"/>	
+	
     <bean
         class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass"

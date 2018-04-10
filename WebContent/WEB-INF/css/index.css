@@ -1,0 +1,14 @@
+
+
+.hotArticle{
+	margin:5px 0px 5px 50px;
+	
+}
+.List{
+	display: block;	
+	margin:5px 0px 5px 0px;;
+	overflow: hidden;
+}
+.img {
+	float:left;
+}
